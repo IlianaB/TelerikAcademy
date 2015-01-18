@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeIfGreater", "ExchangeIfGreater\ExchangeIfGreater.csproj", "{AFAC2747-6801-4F39-BA6A-7DBC03F17ECD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. ExchangeIfGreater", "01. ExchangeIfGreater\01. ExchangeIfGreater.csproj", "{AFAC2747-6801-4F39-BA6A-7DBC03F17ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusScore", "BonusScore\BonusScore.csproj", "{DC906239-BA79-406D-88E3-F26D21C5AA75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BonusScore", "02. BonusScore\02. BonusScore.csproj", "{DC906239-BA79-406D-88E3-F26D21C5AA75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckForAPlayCard", "CheckForAPlayCard\CheckForAPlayCard.csproj", "{98220D6E-047F-4CE9-9B41-ED9E1055AA08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. CheckForAPlayCard", "03. CheckForAPlayCard\03. CheckForAPlayCard.csproj", "{98220D6E-047F-4CE9-9B41-ED9E1055AA08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationSign", "MultiplicationSign\MultiplicationSign.csproj", "{E6169AAE-2F55-43E1-93C4-D06FB5719568}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MultiplicationSign", "04. MultiplicationSign\04. MultiplicationSign.csproj", "{E6169AAE-2F55-43E1-93C4-D06FB5719568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBiggestOfThreeNumbers", "TheBiggestOfThreeNumbers\TheBiggestOfThreeNumbers.csproj", "{3725E40D-1C4E-40D3-BF8F-1C78993EAF75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. TheBiggestOfThreeNumbers", "05. TheBiggestOfThreeNumbers\05. TheBiggestOfThreeNumbers.csproj", "{3725E40D-1C4E-40D3-BF8F-1C78993EAF75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBiggestOfFiveNumbers", "TheBiggestOfFiveNumbers\TheBiggestOfFiveNumbers.csproj", "{50ED07C2-B608-440B-A645-5B8392DA8236}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. TheBiggestOfFiveNumbers", "06. TheBiggestOfFiveNumbers\06. TheBiggestOfFiveNumbers.csproj", "{50ED07C2-B608-440B-A645-5B8392DA8236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortThreeNumbers", "SortThreeNumbers\SortThreeNumbers.csproj", "{3133B5CD-0810-4FCD-9BF0-3069C83E5DAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. SortThreeNumbers", "07. SortThreeNumbers\07. SortThreeNumbers.csproj", "{3133B5CD-0810-4FCD-9BF0-3069C83E5DAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitАsWord", "DigitАsWord\DigitАsWord.csproj", "{7B06DDD9-B604-4746-86CD-3D924EE00F53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. DigitАsWord", "08. DigitАsWord\08. DigitАsWord.csproj", "{7B06DDD9-B604-4746-86CD-3D924EE00F53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntDoubleString", "IntDoubleString\IntDoubleString.csproj", "{432C680A-936B-449A-84CD-792B32CAF4E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. IntDoubleString", "09. IntDoubleString\09. IntDoubleString.csproj", "{432C680A-936B-449A-84CD-792B32CAF4E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerTime", "BeerTime\BeerTime.csproj", "{261249CC-5C15-4DF0-95C6-F0EF3E6AA783}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. BeerTime", "10. BeerTime\10. BeerTime.csproj", "{261249CC-5C15-4DF0-95C6-F0EF3E6AA783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberAsWords", "NumberAsWords\NumberAsWords.csproj", "{436A9CAA-AFA5-4F8D-BEA3-42F189C81C19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. NumberAsWords", "11. NumberAsWords\11. NumberAsWords.csproj", "{436A9CAA-AFA5-4F8D-BEA3-42F189C81C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroSubset", "ZeroSubset\ZeroSubset.csproj", "{AD916D78-26BD-4365-94EC-A1C2C77F8222}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. ZeroSubset", "12. ZeroSubset\12. ZeroSubset.csproj", "{AD916D78-26BD-4365-94EC-A1C2C77F8222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
