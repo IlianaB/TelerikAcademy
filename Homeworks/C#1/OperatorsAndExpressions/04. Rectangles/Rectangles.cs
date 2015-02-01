@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write an expression that calculates rectangle’s perimeter and area by given width and height.
 
@@ -8,6 +9,8 @@ namespace Rectangles
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write the width of the rectangle: ");
             double width = Double.Parse(Console.ReadLine());
             Console.Write("Write the height of the rectangle: ");

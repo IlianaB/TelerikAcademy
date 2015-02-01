@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that reads the coefficients a, b and c of a quadratic equation ax2 + bx + c = 0 and solves it (prints its real roots).
 
@@ -8,6 +9,8 @@ namespace QuadraticEquation
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write a real number: ");
             double a = Double.Parse(Console.ReadLine());
             Console.Write("Write a real number: ");

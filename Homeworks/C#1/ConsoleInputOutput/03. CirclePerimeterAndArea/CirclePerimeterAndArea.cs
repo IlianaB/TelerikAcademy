@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that reads the radius r of a circle and prints its perimeter and area formatted with 2 digits after the decimal point.
 
@@ -8,6 +9,8 @@ namespace CirclePerimeterAndArea
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("The radius of the circle is: ");
             double r = Double.Parse(Console.ReadLine());
             double diameter = 2 * r;

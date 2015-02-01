@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that, depending on the user’s choice, inputs an int, double or string variable.
 //If the variable is int or double, the program increases it by one.
@@ -11,6 +12,8 @@ namespace IntDoubleString
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write a number between 1 and 3: ");
             int number = Int32.Parse(Console.ReadLine());
 

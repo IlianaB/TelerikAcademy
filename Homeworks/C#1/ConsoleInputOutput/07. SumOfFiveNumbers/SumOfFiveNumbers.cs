@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that enters 5 numbers (given in a single line, separated by a space), calculates and prints their sum.
 
@@ -8,6 +9,8 @@ namespace SumOfFiveNumbers
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write five numbers, separated by space: ");
             string sequence = Console.ReadLine();
             string[] arr = sequence.Split(' ');

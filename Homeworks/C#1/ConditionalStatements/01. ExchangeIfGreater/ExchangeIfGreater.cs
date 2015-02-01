@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write an if-statement that takes two integer variables a and b and exchanges their values if the first one is greater than the second one. 
 //As a result print the values a and b, separated by a space.
@@ -9,6 +10,8 @@ namespace ExchangeIfGreater
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write a number: ");
             double a = Double.Parse(Console.ReadLine());
             Console.Write("Write a number: ");

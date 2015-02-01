@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that reads 3 numbers:
 //integer a (0 <= a <= 500)
@@ -16,6 +17,8 @@ namespace FormattingNumbers
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write an integer between 0 and 500: ");
             int a = Int32.Parse(Console.ReadLine());
             Console.Write("Write a float-point number: ");

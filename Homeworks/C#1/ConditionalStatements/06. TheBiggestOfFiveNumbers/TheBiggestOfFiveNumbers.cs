@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that finds the biggest of five numbers by using only five if statements.
 
@@ -8,6 +9,8 @@ namespace TheBiggestOfFiveNumbers
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write a number: ");
             double a = Double.Parse(Console.ReadLine());
             Console.Write("Write a number: ");

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write an expression that calculates trapezoid's area by given sides a and b and height h.
 
@@ -8,6 +9,8 @@ namespace Trapezoids
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("The lenght of side a is: ");
             double a = Double.Parse(Console.ReadLine());
             Console.Write("The lenght of side b is: ");

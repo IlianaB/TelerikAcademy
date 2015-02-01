@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that reads an integer number n from the console and prints all the numbers in the interval [1..n], each on a single line.
 //Note: You may need to use a for-loop.
@@ -9,6 +10,8 @@ namespace NumbersFromOneToN
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write a positive integer: ");
             int n = Int32.Parse(Console.ReadLine());
 

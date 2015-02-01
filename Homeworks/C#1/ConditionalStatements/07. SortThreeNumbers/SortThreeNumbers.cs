@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 //Write a program that enters 3 real numbers and prints them sorted in descending order.
 //Use nested if statements.
@@ -10,6 +11,8 @@ namespace SortThreeNumbers
     {
         static void Main(string[] args)
         {
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
+
             Console.Write("Write a number: ");
             double a = Double.Parse(Console.ReadLine());
             Console.Write("Write a number: ");
