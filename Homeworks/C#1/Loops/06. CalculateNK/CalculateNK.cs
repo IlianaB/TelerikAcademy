@@ -8,7 +8,7 @@ namespace CalculateNK
 {
     class CalculateNK
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Write an integer between 1 and 100: ");
             int n = Int32.Parse(Console.ReadLine());

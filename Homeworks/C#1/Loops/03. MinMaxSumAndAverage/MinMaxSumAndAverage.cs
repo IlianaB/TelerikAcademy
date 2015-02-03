@@ -9,7 +9,7 @@ namespace MinMaxSumAndAverage
 {
     class MinMaxSumAndAverage
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Write a positive integer: ");
             int n = Int32.Parse(Console.ReadLine());

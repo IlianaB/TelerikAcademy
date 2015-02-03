@@ -8,7 +8,7 @@ namespace OddAndEvenProduct
 {
     class OddAndEvenProduct
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Write integers, separated by space: ");
             string input = Console.ReadLine();

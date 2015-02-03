@@ -6,7 +6,7 @@ namespace MatrixOfNumbers
 {
     class MatrixOfNumbers
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Write an integer between 1 and 20: ");
             int n = Int32.Parse(Console.ReadLine());

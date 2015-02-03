@@ -8,7 +8,7 @@ namespace DecimalToBinaryNumber
 {
     class DecimalToBinaryNumber
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Write a decimal number: ");
             long input = long.Parse(Console.ReadLine());

@@ -8,7 +8,7 @@ namespace BinaryТоDecimalNumber
 {
     class BinaryТоDecimalNumber
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Write a binary number: ");
             string input = Console.ReadLine();

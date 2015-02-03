@@ -16,7 +16,7 @@ namespace PrintADeckOfCards
 {
     class PrintADeckOfCards
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string card = " ";
 
