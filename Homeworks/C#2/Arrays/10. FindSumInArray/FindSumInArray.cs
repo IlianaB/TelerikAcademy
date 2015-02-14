@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// Write a program that finds in given array of integers a sequence of given sum S (if present)
+
 namespace _10.FindSumInArray
 {
     class FindSumInArray
