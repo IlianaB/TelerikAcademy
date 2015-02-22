@@ -6,10 +6,10 @@ namespace _02.RandomNumbers
 {
     class RandomNumbers
     {
+        private static Random rnd = new Random();
+
         static void Main(string[] args)
         {
-            Random rnd = new Random();
-
             Console.WriteLine("Ten random values between 100 and 200: ");
 
             for (int i = 0; i < 10; i++)

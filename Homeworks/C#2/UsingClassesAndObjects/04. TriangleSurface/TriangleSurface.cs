@@ -23,9 +23,9 @@ namespace _04.TriangleSurface
             Console.Write("angle = ");
             double angle = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("The surface of a triangle with side1 = {0} and altitude = {1} is {2}.", side1, altitude, CalculateSurface(side1, altitude));
-            Console.WriteLine("The surface of a triangle with side1 = {0}, side2 = {1} and side3 = {2} is {3}.", side1, side2, side3, CalculateSurface(side1, side2, side3));
-            Console.WriteLine("The surface of a triangle with side1 = {0}, side2 = {1} and angle between them = {2} is {3}.", side1, side2, angle, CalculateSurface2(side1, side2, angle));
+            Console.WriteLine("The surface of a triangle with side1 = {0} and altitude = {1} is {2:F2}.", side1, altitude, CalculateSurface(side1, altitude));
+            Console.WriteLine("The surface of a triangle with side1 = {0}, side2 = {1} and side3 = {2} is {3:F2}.", side1, side2, side3, CalculateSurface(side1, side2, side3));
+            Console.WriteLine("The surface of a triangle with side1 = {0}, side2 = {1} and angle between them = {2} is {3:F2}.", side1, side2, angle, CalculateSurface2(side1, side2, angle));
         }
 
         private static double CalculateSurface2(double side1, double side2, double angle)
