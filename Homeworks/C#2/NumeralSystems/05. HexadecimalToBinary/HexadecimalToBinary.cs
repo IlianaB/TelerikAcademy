@@ -12,7 +12,7 @@ namespace _05.HexadecimalToBinary
             Console.Write("Write a hexadecimal number: ");
             string input = Console.ReadLine();
 
-            string binary = ConvertHexNumber(input);
+            string binary = ConvertHexNumber(input.ToUpper());
 
             Console.WriteLine("The binary representation of {0} is {1}", input, binary);
         }
