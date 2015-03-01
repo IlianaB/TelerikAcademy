@@ -4,7 +4,7 @@
 
 namespace _15.ReplaceТags
 {
-    class ReplaceТags
+    class ReplaceTags
     {
         static void Main(string[] args)
         {
