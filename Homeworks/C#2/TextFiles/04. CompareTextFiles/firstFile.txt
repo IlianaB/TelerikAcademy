@@ -1,0 +1,5 @@
+First Line - same
+Second Line - same
+Third Line - different
+Fourth Line - same
+Fifth Line - different

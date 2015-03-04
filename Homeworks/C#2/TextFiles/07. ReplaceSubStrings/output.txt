@@ -1,0 +1,3 @@
+Some random text contains word finish.
+Another random text with finish in it.
+And more text with finish. Some long long text with finish in it.
