@@ -161,12 +161,13 @@ namespace DefiningClasses
         public override string ToString()
         {
             string owner = this.owner != null ? this.owner : "N/A";
+            string price = this.price.HasValue ? this.price.Value.ToString() + " BGN" : "N/A";
 
             StringBuilder result = new StringBuilder();
             result.AppendLine("Detailed GSM's information: ");
             result.AppendLine("Model: " + this.model);
             result.AppendLine("Manufacturer: " + this.manufacturer);
-            result.AppendLine("Price: " + this.price);
+            result.AppendLine("Price: " + price);
             result.AppendLine("Owner: " + owner);
 
             return result.ToString();
