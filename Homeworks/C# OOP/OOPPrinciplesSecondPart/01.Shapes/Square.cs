@@ -13,6 +13,7 @@
         {
         }
 
+        //Properties
         public override double Height
         {
             get
@@ -30,6 +31,7 @@
             }
         }
 
+        //Methods
         public override double CalculateSurface()
         {
             return (this.Width * this.Height);
