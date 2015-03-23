@@ -16,7 +16,11 @@
             this.owner = owner;
             this.balance = startBalance;
             this.InterestRate = interestRate;
-            this.openDate = DateTime.Now;
+            this.openDate = new DateTime(2014, 11, 20);
+            //this.openDate = DateTime.Now; //In a real situation the open date will be the same as the initializing the acoount in the constructor.
+                                            //However, in this case you will always receive 0 when you calculate the interest amount 
+                                            //(as it depends on the months between the open date and today).
+                                            //That's why I set the open date to be 22 November 2014.
         }
 
         //Properties
@@ -61,8 +65,8 @@
         {
             get
             {
-                return (this.openDate.Year * 12 + this.openDate.Month)
-                       - (DateTime.Now.Year * 12 + DateTime.Now.Month);
+                return (DateTime.Now.Year * 12 + DateTime.Now.Month) -
+                    (this.openDate.Year * 12 + this.openDate.Month);
             }
         }
 
@@ -80,6 +84,12 @@
             }
 
             this.Balance += receivedSum; 
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Owner: {0}\nAccount type: {1}\nBalance: {2} BGN\nInterest: {3} BGN", 
+                this.Owner.Name, this.GetType().Name, this.Balance, this.CalculateInterestAmount());
         }
     }
 }

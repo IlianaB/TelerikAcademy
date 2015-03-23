@@ -47,5 +47,10 @@
         {
             this.allAccounts.Add(newAccount);
         }
+
+        public override string ToString()
+        {
+            return string.Format("The Bank {0} has {1} accounts opened in it.", this.Name, this.AllAccounts.Count);
+        }
     }
 }
