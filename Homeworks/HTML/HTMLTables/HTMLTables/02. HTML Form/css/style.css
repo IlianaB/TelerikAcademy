@@ -1,0 +1,14 @@
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+button {
+    background-image: url("../images/submit.gif");
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 43px;
+    height: 24px;
+}

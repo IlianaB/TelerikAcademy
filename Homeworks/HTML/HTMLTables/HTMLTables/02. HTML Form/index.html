@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <form method="POST" action="file.php">
+        <fieldset>
+            <label for="member-name">Member name :</label>
+            <input type="text" name="member-name" id="member-name"/>
+            <strong>*req</strong>
+        </fieldset>
+
+        <fieldset>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email"/>
+            <strong>*req</strong>
+        </fieldset>
+
+        <fieldset>
+            <label for="school">School :</label>
+            <input type="text" name="school" id="school"/>
+            <strong>*req</strong>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
