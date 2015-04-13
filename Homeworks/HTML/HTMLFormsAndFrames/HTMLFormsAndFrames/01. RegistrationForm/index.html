@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<form action="file.php" method="POST">
+		<table border="1" width="450px">
+			<tfoot>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="submit">Submit</button>
+						<button type="reset">Clean This Form</button>
+					</td>
+				</tr>
+			</tfoot>
+
+			<tbody>
+				<tr>
+					<th width="150px">
+						<label for="last-name">Last Name</label>
+					</th>
+					<td>
+						<input type="text" name="last-name" id="last-name" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="first-name">First Name</label>
+					</th>
+					<td>
+						<input type="text" name="first-name" id="first-name" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="address">Address</label>
+					</th>
+					<td>
+						<textarea name="address" id="address" rows="5"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="city">City</label>
+					</th>
+					<td>
+						<input type="text" name="city" id="city" size="10" />
+						<label for="state">State</label>
+						<input type="text" name="state" id="state" size="5" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="zip">Zip/Postal Code</label>
+					</th>
+					<td>
+						<input type="text" name="zip" id="zip" size="7" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="country">Country</label>
+					</th>
+					<td>
+						<select name="country" id="country">
+							<option value="Bulgaria">Bulgaria</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label>Phone(country code, area code, number)</label>
+					</th>
+					<td>
+						(+
+						<input type="text" name="country-code" id="country-code" size="5" pattern="\d*" />
+						)
+						<input type="text" name="area-code" id="area-code" size="5" pattern="\d*" />
+						<input type="text" name="number" id="number" size="8" pattern="\d*" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="email">E-mail</label>
+					</th>
+					<td>
+						<input type="email" name="email" id="email" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="birth">Birth date</label>
+					</th>
+					<td>
+						<input type="date" name="birth" id="birth" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="gender">Gender</label>
+					</th>
+					<td>
+						<select name="gender" id="gender">
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label>Starting date</label>
+					</th>
+					<td>
+						<label>
+							<input type="radio" name="starting-date" value="spring" />
+							Spring 2015
+						</label>
+
+						<label>
+							<input type="radio" name="starting-date" value="summer" />
+							Summer 2015
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="comments">Comments/Questions</label>
+					</th>
+					<td>
+						<textarea name="comments" id="comments" rows="5"></textarea>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

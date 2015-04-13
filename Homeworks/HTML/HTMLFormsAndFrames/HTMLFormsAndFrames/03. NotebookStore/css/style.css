@@ -1,0 +1,25 @@
+body {
+	font-size: 24px;
+}
+
+.outer-table {
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+th {
+	border-bottom: 2px solid #000;
+}
+
+.border {
+	border: 2px solid #000;
+}
+
+p {
+	margin: 0;
+	line-height: 2;
+}
+
+input[type=range] {
+	width: 100%;
+}
