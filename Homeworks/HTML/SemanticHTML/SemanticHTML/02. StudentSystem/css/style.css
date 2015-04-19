@@ -1,0 +1,36 @@
+body {
+	padding: 10px 30px;
+}
+
+img,
+h1 {
+	display: inline-block;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+img {
+	margin-left: 20px;
+}
+
+h1 {
+	margin-left: 100px;
+}
+
+a {
+	color: #000;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-color: #000;
+	width: 300px;
+}
+
+td,
+th {
+	padding: 5px;
+	text-align: center;
+}
