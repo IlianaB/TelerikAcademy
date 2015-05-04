@@ -51,6 +51,10 @@ table {
 End of the reset settings
 */
 
+body {
+    font-family: Segoe UI;
+}
+
 .calculator {
     width: 450px;
     background-image: url("../images/body_background.jpg");
@@ -182,6 +186,7 @@ h1 {
 }
 
 .numbers-representation td {
+    font-family: Consolas;
     font-size: 14px;
     padding: 3px;
 }
