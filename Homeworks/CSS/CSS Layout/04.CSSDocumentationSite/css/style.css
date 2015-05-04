@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+End of the reset settings
+*/
+
+.container {
+    background: #f1f1f1;
+    width: 750px;
+    border: solid 1px #333;
+    padding: 2px;
+    margin: 2px;
+}
+
+header {
+    width: 19%;
+    float: left;
+}
+
+main {
+    width: 63%;
+    float: left;
+    background: #fff;
+    border: solid 1px #999;
+    padding: 20px 5px 30px 5px;
+    height: 545px;
+}
+
+aside {
+    width: 18%;
+    float: left;
+}
+
+.home-page {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.home-page:before {
+    content: "";
+    background-image: url("../images/home.gif");
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 1px;
+    background: #808080;
+    color: #fff;
+    font-size: 15px;
+}
+
+h3 {
+    color: #8B0000;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+li {
+    line-height: .9;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #050505;
+    font-size: 13px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    border: solid 1px #000;
+    padding: 2px 35px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+
+.buttons-section {
+    border-bottom: solid 2px #999;
+    padding-bottom: 10px;
+}
+
+.article-pic {
+    float: left;
+}
+
+.main-section {
+    padding-bottom: 15px;
+}
+
+.main-section p {
+     font-weight: 700;
+     font-size: 14px;
+     padding-top: 10px;
+     padding-bottom: 0;
+}
+
+.main-section p:last-of-type {
+    padding-bottom: 10px;
+}
+
+.general-link {
+    color: #8f1010;
+    font-size: 13px;
+    display: block;
+    line-height: 1.2;
+}
+
+.general-link:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+section {
+    margin-top: 8px;
+}
+
+main section:last-of-type {
+    border-bottom: solid 2px #999;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+#search {
+    margin: 10px 2px 5px 5px;
+    width: 60%;
+    height: 19px;
+    border: solid 1px #87a3bd;
+
+}
+
+.aside-container {
+    background: #fff;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    border: solid 1px #999;
+}
+
+.aside-button {
+    margin-top: 2px;
+}
+
+.aside-button:hover {
+    box-shadow: 1px 1px 1px 1px #ddd, -1px -1px 1px 1px #ddd;
+}
+
+aside h2 {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.search-button {
+    background: #fcfcfb;
+    vertical-align: middle;
+    padding: 1px;
+    height: 16px;
+    line-height: 11px;
+    font-weight: 700;
+    border: solid 1px #084379;
+    border-radius: 3px;
+}
+
+.search-button:hover {
+    background: #ccc;
+}
+
+.button-link-prev {
+    background-image: url(../images/left-arrow.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.button-link-next {
+    background-image: url(../images/right-arrow.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.button-link-prev:hover,
+.button-link-next:hover {
+    background-color: #eee;
+}

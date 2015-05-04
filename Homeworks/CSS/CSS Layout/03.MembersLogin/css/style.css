@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+End of the reset settings
+*/
+
+body {
+    width: 650px;
+}
+header {
+    padding: 9px 0px 15px 12px;
+    border: solid 1px #999;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-color: #333;
+
+    background: #3b3b3b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3b3b3b 0%, #242424 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3b3b), color-stop(100%,#242424)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #3b3b3b 0%,#242424 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #3b3b3b 0%,#242424 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #3b3b3b 0%,#242424 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #3b3b3b 0%,#242424 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+}
+
+.logo {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.login {
+    color: #fff;
+    font-size: 21px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
+input[type="text"] {
+    width: 150px;
+    margin-right: 20px;
+}
+
+::-webkit-input-placeholder {
+    color:#000;
+}
+
+/* firefox 19+ */
+::-moz-placeholder {
+    color:#000;
+}
+
+/* ie */
+:-ms-input-placeholder {
+    color:#000;
+}
+
+input:-moz-placeholder {
+    color:#000;
+}
+
+button {
+    background: url("../images/go.png");
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 28px;
+    border: none;
+    vertical-align: middle;
+}
+
+main {
+    background-color: #3b3b3b;
+    padding: 20px 50px 10px 10px;
+}
+
+h1 {
+    color: #fcd61b;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #a4a4a4;
+}
+
+strong {
+    color: #fdfdfd;
+}
+
+p a {
+    text-decoration: none;
+    color: #a4a4a4;
+}
