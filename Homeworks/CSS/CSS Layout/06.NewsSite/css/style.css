@@ -9,8 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+dl, dt, dd, ol, ul, li, form, label,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -60,84 +59,56 @@ table {
 * {
     box-sizing: border-box;
 }
+
 /*
 End of the reset settings
 */
 
-.main-content {
-    padding: 15px 10px 25px 15px;
-    border-radius: 8px;
-    width: 425px;
-    background-color: #eee;
-    overflow: hidden;
+.container {
+    width: 620px;
+    background: #1e3741;
+    border: 1px solid #295a68;
+    border-radius: 5px;
 }
 
-img {
-    margin-right: 15px;
+.main-navigation li {
+    display: inline-block;
+    color: #90a9b3;
+    font-size: 13px;
+    background: #4b5f67;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.main-navigation li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 12px;
+}
+
+.news-feed {
+    width: 250px;
     float: left;
-    border: solid 1px #aaa;
-}
-
-h1 {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-article {
-    width: 400px;
-    background-color: #fff;
-    border: solid 1px #aaa;
-    padding: 15px;
-    margin-bottom: 35px;
+    color: #adb5b6;
     font-size: 15px;
 }
 
-strong {
-    font-weight: 700;
+.news-feed li {
+    padding: 9px;
+    border-top: 1px solid #3a4f58;
 }
 
-p {
-    margin-bottom: 20px;
-}
-
-.buttons {
-    float: right;
-}
-
-.listen {
-    background-image: url("../images/listen-button.gif");
-    background-repeat: no-repeat;
-    width: 76px;
-}
-
-.listen:hover {
-    background-image: url("../images/listen-button-active.gif");
-    background-repeat: no-repeat;
-    width: 76px;
-    cursor: pointer;
-}
-
-.add {
-    background-image: url("../images/add-button.gif");
-    background-repeat: no-repeat;
-    width: 63px;
-}
-
-.add:hover {
-    background-image: url("../images/add-button-active.gif");
-    background-repeat: no-repeat;
-    width: 63px;
-    cursor: pointer;
-}
-
-button {
-    height: 25px;
-    font-size: 12px;
-    line-height: 23px;
-    padding-left: 15px;
+.news-feed li:hover {
     color: #fff;
+    background: #00968c;
+    border-top: 1px solid #087c78;
+    cursor: pointer;
 }
 
-article:last-child {
-    margin-bottom: 0;
+li.active {
+    background: transparent;
+    color: #fff;
 }

@@ -120,13 +120,23 @@ input:-moz-placeholder {
     color:#000;
 }
 
-button {
+.go-button {
     background: url("../images/go.png");
     background-repeat: no-repeat;
     width: 56px;
     height: 28px;
     border: none;
     vertical-align: middle;
+}
+
+.go-button:hover {
+    background: url("../images/go-active.png");
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 28px;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 main {
@@ -152,4 +162,8 @@ strong {
 p a {
     text-decoration: none;
     color: #a4a4a4;
+}
+
+p a:hover {
+    text-decoration: underline;
 }

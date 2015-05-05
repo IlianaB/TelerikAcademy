@@ -248,6 +248,7 @@ aside h2 {
 
 .search-button:hover {
     background: #ccc;
+    cursor: pointer;
 }
 
 .button-link-prev {
