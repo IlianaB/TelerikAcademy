@@ -30,7 +30,7 @@ function findLexicographicallySmallestProperty(objectToSearch) {
     var smallest = 'zzzzzzzz';
 
     for (var prop in objectToSearch) {
-        if(smallest > prop) {
+        if (smallest > prop) {
             smallest = prop;
         }
     }
@@ -42,7 +42,7 @@ function findLexicographicallyLargestProperty(objectToSearch) {
     var largest = 'A';
 
     for (var prop in objectToSearch) {
-        if(largest < prop) {
+        if (largest < prop) {
             largest = prop;
         }
     }

@@ -14,11 +14,11 @@ notDivisibleBy3And7(n);
 
 function notDivisibleBy3And7(number) {
     for (var i = 0; i <= n; i++) {
-        if(i % 3 != 0 || i % 7 != 0) {
+        if (i % 3 != 0 || i % 7 != 0) {
             console.log(i);
             result.innerHTML += i;
 
-            if(i != n) {
+            if (i != n) {
                 console.log(', ');
                 result.innerHTML += ', ';
             }

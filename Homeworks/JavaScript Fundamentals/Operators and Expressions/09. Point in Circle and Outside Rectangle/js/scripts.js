@@ -12,10 +12,10 @@ var x2 = 2.5,
     y2 = 2;
 
 
-console.log(checkCondition(isInsideCircle(x1, y1), isInsideRectangle(x1, y1)));
-result.innerHTML += 'A poin with x = ' + x1 + ' and y = ' + y1 + ' is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2): ' + checkCondition(isInsideCircle(x1, y1), isInsideRectangle(x1, y1)) + '<br />';
-console.log(checkCondition(isInsideCircle(x2, y2), isInsideRectangle(x2, y2)));
-result.innerHTML += 'A poin with x = ' + x2 + ' and y = ' + y2 + ' is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2): ' + checkCondition(isInsideCircle(x2, y2), isInsideRectangle(x2, y2)) + '<br />';
+console.log('A point with x = ' + x1 + ' and y = ' + y1 + ' is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2): ' + checkCondition(isInsideCircle(x1, y1), isInsideRectangle(x1, y1)));
+result.innerHTML += 'A point with x = ' + x1 + ' and y = ' + y1 + ' is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2): ' + checkCondition(isInsideCircle(x1, y1), isInsideRectangle(x1, y1)) + '<br />';
+console.log('A point with x = ' + x2 + ' and y = ' + y2 + ' is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2): ' + checkCondition(isInsideCircle(x2, y2), isInsideRectangle(x2, y2)));
+result.innerHTML += 'A point with x = ' + x2 + ' and y = ' + y2 + ' is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2): ' + checkCondition(isInsideCircle(x2, y2), isInsideRectangle(x2, y2)) + '<br />';
 
 
 function isInsideCircle(x, y) {

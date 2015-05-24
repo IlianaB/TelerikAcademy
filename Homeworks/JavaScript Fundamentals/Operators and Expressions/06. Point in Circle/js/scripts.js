@@ -15,9 +15,9 @@ var yFirstPoint = 1;
 var xSecondPoint = -4;
 var ySecondPoint = 5;
 
-console.log(checkIfInCircle(xFirstPoint, yFirstPoint, xCircle, yCircle, radiusCircle));
+console.log('The point with x = ' + xFirstPoint + ' and y = ' + yFirstPoint + ' is within a circle K(0, 5): ' + checkIfInCircle(xFirstPoint, yFirstPoint, xCircle, yCircle, radiusCircle));
 result.innerHTML += 'The point with x = ' + xFirstPoint + ' and y = ' + yFirstPoint + ' is within a circle K(0, 5): ' + checkIfInCircle(xFirstPoint, yFirstPoint, xCircle, yCircle, radiusCircle) + '<br />';
-console.log(checkIfInCircle(xSecondPoint, ySecondPoint, xCircle, yCircle, radiusCircle));
+console.log('The point with x = ' + xSecondPoint + ' and y = ' + ySecondPoint + ' is within a circle K(0, 5): ' + checkIfInCircle(xSecondPoint, ySecondPoint, xCircle, yCircle, radiusCircle));
 result.innerHTML += 'The point with x = ' + xSecondPoint + ' and y = ' + ySecondPoint + ' is within a circle K(0, 5): ' + checkIfInCircle(xSecondPoint, ySecondPoint, xCircle, yCircle, radiusCircle) + '<br />';
 
 function checkIfInCircle(xPoint, yPoint, x, y, radius) {

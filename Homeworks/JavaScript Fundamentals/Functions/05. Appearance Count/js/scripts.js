@@ -4,13 +4,7 @@
  Write a test function to check if the function is working correctly.
  */
 
-var result = document.getElementById('result');
-
-var myArray = [ 1, 2, 6, 18, 6, 22, 6, 14, 6],
-    number = 6;
-
-console.log('The number  ' + number + ' appears ' + findAppearances(myArray, number) + ' time(s) in the given array.');
-result.innerHTML += 'The number  ' + number + ' appears ' + findAppearances(myArray, number) + ' time(s) in the given array.';
+testFunction();
 
 function findAppearances(arr, number) {
     var count = 0;
@@ -21,4 +15,14 @@ function findAppearances(arr, number) {
         }
     }
     return count;
+}
+
+function testFunction() {
+    var result = document.getElementById('result');
+
+    var myArray = [1, 2, 6, 18, 6, 22, 6, 14, 6],
+        number = 6;
+
+    console.log('The number  ' + number + ' appears ' + findAppearances(myArray, number) + ' time(s) in the given array.');
+    result.innerHTML += 'The number  ' + number + ' appears ' + findAppearances(myArray, number) + ' time(s) in the given array.';
 }

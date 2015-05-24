@@ -14,8 +14,8 @@ result.innerHTML += 'Min number in the sequence is: ' + findMin(sequence) + '<br
 function findMin(sequence) {
     var min = Number.MAX_VALUE;
 
-    for (var i = 0; i <= sequence.length; i++) {
-        if(sequence[i] < min) {
+    for (var i = 0, len = sequence.length; i <= len; i++) {
+        if (sequence[i] < min) {
             min = sequence[i];
         }
     }
@@ -26,8 +26,8 @@ function findMin(sequence) {
 function findMax(sequence) {
     var max = Number.MIN_VALUE;
 
-    for (var i = 0; i <= sequence.length; i++) {
-        if(sequence[i] > max) {
+    for (var i = 0, len = sequence.length; i <= len; i++) {
+        if (sequence[i] > max) {
             max = sequence[i];
         }
     }

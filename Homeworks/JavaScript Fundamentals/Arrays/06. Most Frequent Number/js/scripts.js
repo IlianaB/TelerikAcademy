@@ -14,8 +14,8 @@ findMostFrequentNumber(myArray);
 printResult();
 
 function findMostFrequentNumber(arr) {
-    for (var i = 0; i < myArray.length; i++) {
-        for (var j = i + 1; j < myArray.length; j++) {
+    for (var i = 0, len = myArray.length; i < len; i++) {
+        for (var j = i + 1; j < len; j++) {
             if (myArray[i] === myArray[j]) {
                 count++;
 

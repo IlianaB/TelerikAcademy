@@ -11,7 +11,7 @@ var count = 1,
     max = 0,
     number;
 
-for (var i = 0; i < myArray.length - 1; i++) {
+for (var i = 0, len = myArray.length; i < len - 1; i++) {
     if (myArray[i] === myArray[i + 1]) {
         count++;
 

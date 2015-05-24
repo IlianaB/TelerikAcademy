@@ -8,9 +8,9 @@ var result = document.getElementById('result');
 var oddNumber = 5;
 var evenNumber = 6;
 
-console.log(checkNumber(oddNumber));
+console.log('The number ' + oddNumber + ' is: ' + checkNumber(oddNumber));
 result.innerHTML += 'The number ' + oddNumber + ' is: ' + checkNumber(oddNumber) + '<br />';
-console.log(checkNumber(evenNumber));
+console.log('The number ' + evenNumber + ' is: ' + checkNumber(evenNumber));
 result.innerHTML += 'The number ' + evenNumber + ' is: ' + checkNumber(evenNumber) + '<br />';
 
 function checkNumber(number) {

@@ -10,9 +10,9 @@ var result = document.getElementById('result');
 var withoutThirdBit0 = 5;
 var withThirdBit0 = 15;
 
-console.log(checkIfThirDBitIsZero(withoutThirdBit0));
+console.log('The third bit of ' + withoutThirdBit0 + ' is: ' + checkIfThirDBitIsZero(withoutThirdBit0));
 result.innerHTML += 'The third bit of ' + withoutThirdBit0 + ' is: ' + checkIfThirDBitIsZero(withoutThirdBit0) + '<br />';
-console.log(checkIfThirDBitIsZero(withThirdBit0));
+console.log('The third bit of ' + withoutThirdBit0 + ' is: ' + checkIfThirDBitIsZero(withThirdBit0));
 result.innerHTML += 'The third bit of ' + withoutThirdBit0 + ' is: ' + checkIfThirDBitIsZero(withThirdBit0) + '<br />';
 
 function checkIfThirDBitIsZero(number) {

@@ -8,7 +8,7 @@ var result = document.getElementById('result');
 var width = 3,
     height = 4;
 
-console.log(calculateRectangleArea(width, height));
+console.log('The area of a rectangle with width = ' + width + ' and height = ' + height + ' is: ' + calculateRectangleArea(width, height));
 result.innerHTML += 'The area of a rectangle with width = ' + width + ' and height = ' + height + ' is: ' + calculateRectangleArea(width, height);
 
 function calculateRectangleArea(width, height) {

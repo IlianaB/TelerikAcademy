@@ -8,9 +8,9 @@ var result = document.getElementById('result');
 var firstArray = ['a', 'b', 'c'],
     secondArray = ['a', 'd', 'e'];
 
-var length = firstArray.length < secondArray.length ? firstArray.length : secondArray.length;
+var len = firstArray.length < secondArray.length ? firstArray.length : secondArray.length;
 
-for (var i = 0; i < length; i++) {
+for (var i = 0; i < len; i++) {
     if (firstArray[i] < secondArray[i]) {
         console.log('The first array is lexicographically before the second one.');
         result.innerHTML += 'The first array is lexicographically before the second one.';

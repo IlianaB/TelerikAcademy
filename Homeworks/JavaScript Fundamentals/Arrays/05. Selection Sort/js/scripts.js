@@ -15,9 +15,9 @@ printArray(numbers);
 
 function selectionSort(numbers) {
     // The sorting logic:
-    for (var i = 0; i < numbers.length - 1; i++) {
+    for (var i = 0, len = numbers.length; i < len - 1; i++) {
         // Loop that is operating over the un-sorted part of the array
-        for (var j = i + 1; j < numbers.length; j++) {
+        for (var j = i + 1; j < len; j++) {
             // Swapping the values
             if (numbers[i] > numbers[j]) {
                 var helper = numbers[i];

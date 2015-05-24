@@ -12,7 +12,7 @@ var count = 1,
     temp = 0,
     maxCount = 0;
 
-for (var i = 0; i < myArray.length - 1; i++) {
+for (var i = 0, len = myArray.length; i < len - 1; i++) {
     if (myArray[i] < myArray[i + 1]) {
         temp = i;
         while (myArray[temp] < myArray[temp + 1]) {

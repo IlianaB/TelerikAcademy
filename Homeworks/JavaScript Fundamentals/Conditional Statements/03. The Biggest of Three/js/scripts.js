@@ -10,12 +10,12 @@ var a = 5,
     b = 2,
     c = 2;
 
-console.log(findBiggest(a, b, c));
+console.log('The biggest number between ' + a + ', ' + b + ' and ' + c + ' is: ' + findBiggest(a, b, c));
 result.innerHTML += 'The biggest number between ' + a + ', ' + b + ' and ' + c + ' is: ' + findBiggest(a, b, c);
 
 function findBiggest(a, b, c) {
-    if(a >= b) {
-        if(a >= c) {
+    if (a >= b) {
+        if (a >= c) {
             return a;
         }
         else {
@@ -23,7 +23,7 @@ function findBiggest(a, b, c) {
         }
     }
     else {
-        if(b >= c) {
+        if (b >= c) {
             return b;
         }
         else {

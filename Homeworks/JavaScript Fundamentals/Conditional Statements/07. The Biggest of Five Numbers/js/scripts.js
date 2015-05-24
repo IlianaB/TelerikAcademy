@@ -18,20 +18,16 @@ result.innerHTML += 'The biggest number is: ' + findBiggestNumber(a, b, c, d, e)
 function findBiggestNumber(a, b, c, d, e) {
     var biggestNumber = a;
 
-    if (biggestNumber <= b)
-    {
+    if (biggestNumber <= b) {
         biggestNumber = b;
     }
-    if (biggestNumber <= c)
-    {
+    if (biggestNumber <= c) {
         biggestNumber = c;
     }
-    if (biggestNumber <= d)
-    {
+    if (biggestNumber <= d) {
         biggestNumber = d;
     }
-    if (biggestNumber <= e)
-    {
+    if (biggestNumber <= e) {
         biggestNumber = e;
     }
 

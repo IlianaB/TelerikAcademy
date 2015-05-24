@@ -16,7 +16,7 @@ var first,
     third;
 
 sortThreeNumbers(a, b, c);
-console.log(first + ' ' + second + ' ' + third);
+console.log('Numbers ' + a + ', ' + b + ' and ' + c + ' ordered in descending order: ' + first + ' ' + second + ' ' + third);
 result.innerHTML += 'Numbers ' + a + ', ' + b + ' and ' + c + ' ordered in descending order: ' + first + ' ' + second + ' ' + third;
 
 function sortThreeNumbers(a, b, c) {

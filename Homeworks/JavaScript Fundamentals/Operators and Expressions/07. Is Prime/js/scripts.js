@@ -8,9 +8,9 @@ var result = document.getElementById('result');
 var firstNumber = 1;
 var secondNumber = 2;
 
-console.log(checkIfPrime(firstNumber));
+console.log('The number ' + firstNumber + ' is prime: ' + checkIfPrime(firstNumber));
 result.innerHTML += 'The number ' + firstNumber + ' is prime: ' + checkIfPrime(firstNumber) + '<br />';
-console.log(checkIfPrime(secondNumber));
+console.log('The number ' + secondNumber + ' is prime: ' + checkIfPrime(secondNumber));
 result.innerHTML += 'The number ' + secondNumber + ' is prime: ' + checkIfPrime(secondNumber) + '<br />';
 
 function checkIfPrime(number) {

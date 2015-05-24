@@ -10,12 +10,12 @@ var a = 5,
     b = 2,
     c;
 
-if(a > b) {
+if (a > b) {
     c = a;
     a = b;
     b = c;
 }
 
 console.log('a = ' + a);
-result.innerHTML += 'a = ' + a + ' b = ' + b;
+result.innerHTML += 'a = ' + a + '; b = ' + b;
 console.log('b = ' + b);
