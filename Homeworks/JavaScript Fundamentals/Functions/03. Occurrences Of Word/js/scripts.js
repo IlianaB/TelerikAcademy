@@ -15,11 +15,11 @@ result.innerHTML += 'Searching the word  ' + '"' + word + '"' + ' in the text /c
 console.log('Searching the word  ' + '"' + word + '"' + ' in the text /case insensitive/: ' + findOccurrences(text, word, true) + ' occurrence(s).');
 result.innerHTML += 'Searching the word  ' + '"' + word + '"' + ' in the text /case insensitive/: ' + findOccurrences(text, word, true) + ' occurrence(s).';
 
-function findOccurrences(text, word, caseSensitive) {
+function findOccurrences(text, word, caseInsensitive) {
     var index = 0,
         count = 0;
 
-    if (caseSensitive) {
+    if (caseInsensitive) {
         word = word.toLowerCase();
         text = text.toLowerCase();
     }
