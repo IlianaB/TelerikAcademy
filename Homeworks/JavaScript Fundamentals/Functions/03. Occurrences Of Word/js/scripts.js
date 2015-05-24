@@ -12,20 +12,16 @@ var text = 'This is the text for this problem',
 
 console.log('Searching the word  ' + '"' + word + '"' + ' in the text /case sensitive/: ' + findOccurrences(text, word) + ' occurrence(s).');
 result.innerHTML += 'Searching the word  ' + '"' + word + '"' + ' in the text /case sensitive/: ' + findOccurrences(text, word) + ' occurrence(s).' + '<br />';
-console.log('Searching the word  ' + '"' + word + '"' + ' in the text /case insensitive/: ' + findOccurrences(text, word, 'case insensitive') + ' occurrence(s).');
-result.innerHTML += 'Searching the word  ' + '"' + word + '"' + ' in the text /case insensitive/: ' + findOccurrences(text, word, 'case insensitive') + ' occurrence(s).';
+console.log('Searching the word  ' + '"' + word + '"' + ' in the text /case insensitive/: ' + findOccurrences(text, word, true) + ' occurrence(s).');
+result.innerHTML += 'Searching the word  ' + '"' + word + '"' + ' in the text /case insensitive/: ' + findOccurrences(text, word, true) + ' occurrence(s).';
 
-function findOccurrences(text, word, typeOfSearch) {
+function findOccurrences(text, word, caseSensitive) {
     var index = 0,
         count = 0;
 
-    switch (arguments.length) {
-        case 3:
-            if (typeOfSearch == 'case insensitive') {
-                word = word.toLowerCase();
-                text = text.toLowerCase();
-            }
-            break;
+    if (caseSensitive) {
+        word = word.toLowerCase();
+        text = text.toLowerCase();
     }
 
     while (index != -1) {
