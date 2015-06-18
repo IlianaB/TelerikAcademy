@@ -17,7 +17,7 @@
  */
 function solve() {
     var Person = (function () {
-        var firstname, lastname, age, fullname;
+        var _firstname, _lastname, _age;
 
         function isValidName(value) {
             var regex = /^[A-Za-z]{3,20}$/gi;
@@ -40,14 +40,14 @@ function solve() {
 
         Object.defineProperty(Person.prototype, 'firstname', {
             get: function () {
-                return firstname;
+                return _firstname;
             },
             set: function (value) {
                 if (!isValidName(value)) {
                     throw Error('Invalid firstname! The firstname should be a string with only Latin letters between 3 and 20 characters')
                 }
 
-                firstname = value;
+                _firstname = value;
 
                 return this;
             }
@@ -55,14 +55,14 @@ function solve() {
 
         Object.defineProperty(Person.prototype, 'lastname', {
             get: function () {
-                return lastname;
+                return _lastname;
             },
             set: function (value) {
                 if (!isValidName(value)) {
                     throw Error('Invalid lastname! The lastname should be a string with only Latin letters between 3 and 20 characters')
                 }
 
-                lastname = value;
+                _lastname = value;
 
                 return this;
             }
@@ -70,14 +70,14 @@ function solve() {
 
         Object.defineProperty(Person.prototype, 'age', {
             get: function () {
-                return age;
+                return _age;
             },
             set: function (value) {
                 if (!isValidAge(value)) {
                     throw Error('Invalid age! The age should be a number between 0 and 150')
                 }
 
-                age = parseInt(value, 10);
+                _age = parseInt(value, 10);
 
                 return this;
             }
@@ -85,7 +85,7 @@ function solve() {
 
         Object.defineProperty(Person.prototype, 'fullname', {
             get: function () {
-                return firstname + ' ' + lastname;
+                return _firstname + ' ' + _lastname;
             },
             set: function (value) {
                 var names = value.split(' ');
