@@ -20,7 +20,7 @@ function solve() {
         var _firstname, _lastname, _age;
 
         function isValidName(value) {
-            var regex = /^[A-Za-z]{3,20}$/gi;
+            var regex = /^[a-z]{3,20}$/gi;
 
             return regex.test(value);
         }
