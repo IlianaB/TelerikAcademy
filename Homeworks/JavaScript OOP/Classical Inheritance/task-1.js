@@ -33,7 +33,6 @@ function solve() {
             this.firstname = firstname;
             this.lastname = lastname;
             this.age = age;
-            this.fullname = firstname + ' ' + lastname;
         }
 
         Object.defineProperty(Person.prototype, 'firstname', {
