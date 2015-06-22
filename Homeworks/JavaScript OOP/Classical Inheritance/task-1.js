@@ -45,8 +45,6 @@ function solve() {
                 }
 
                 this._firstname = value;
-
-                return this;
             }
         });
 
@@ -60,8 +58,6 @@ function solve() {
                 }
 
                 this._lastname = value;
-
-                return this;
             }
         });
 
@@ -75,8 +71,6 @@ function solve() {
                 }
 
                 this._age = parseInt(value, 10);
-
-                return this;
             }
         });
 
@@ -89,8 +83,6 @@ function solve() {
 
                 this.firstname = names[0];
                 this.lastname = names[1];
-
-                return this;
             }
         });
 
