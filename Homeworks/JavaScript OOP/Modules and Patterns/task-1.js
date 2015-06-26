@@ -44,7 +44,7 @@
  * 25% the submitted homework (count of submitted homeworks / count of all homeworks) for the course
  */
 
-function solve() {
+//function solve() {
 var ID = 1;
 
 function isValidTitle(title) {
@@ -76,14 +76,16 @@ function isValidName(name) {
 
 function checkIfStudentIdExists(students, studentID) {
     return students.some(function (student) {
-        return student.ID === studentID;
+        return student.id === studentID;
     });
 }
 
 function isValidHomeworkID(presentations, homeworkID) {
-    if (homeworkID < 1 || homeworkID >= presentations.length) {
+    if (homeworkID < 1 || homeworkID > presentations.length) {
         return false;
     }
+    
+    return true;
 }
 
 var Course = {
@@ -164,7 +166,7 @@ var Course = {
     }
 };
 
-    return Course;
-}
+//    return Course;
+//}
 
-module.exports = solve;
+//module.exports = solve;
