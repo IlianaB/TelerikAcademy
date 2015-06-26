@@ -136,18 +136,19 @@ function solve() {
 
                 return this;
             },
-            removeAttribute: function (attribute) {
+            removeAttribute: function (attributeName) {
                 var index;
                 for (var i = 0; i < this.attributes.length; i++) {
-                    if (this.attributes[i].name === attribute.name
-                        && this.attributes[i].value === attribute.value) {
+                    if (this.attributes[i].name === attributeName) {
                         index = i;
                         break;
                     }
                 }
 
-                if (index || index === 0) {
+                if (index !== undefined) {
                     this.attributes.splice(index, 1);
+                } else {
+                    throw new Error('There is no such attribute!');
                 }
 
                 return this;
@@ -226,8 +227,10 @@ function solve() {
                 this._parent = value;
             }
         };
+
         return domElement;
     }());
+
     return domElement;
 }
 
