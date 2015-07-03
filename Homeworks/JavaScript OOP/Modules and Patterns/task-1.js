@@ -45,126 +45,147 @@
  */
 
 function solve() {
-var ID = 1;
+    var ID = 1;
 
-function isValidTitle(title) {
-    var regex = /\s{2,}/g;
+    function isValidTitle(title) {
+        var regex = /\s{2,}/g;
 
-    if (title.length <= 1) {
-        return false;
-    } else if (title[0] === ' ') {
-        return false;
-    } else if (title[title.length - 1] == ' ') {
-        return false;
-    } else {
-        return !regex.test(title);
-    }
-}
-
-function isValidName(name) {
-    if (name[0] === name[0].toLowerCase()) {
-        return false;
-    }
-    for (var i = 1; i < name.length; i++) {
-        if (name[i] === name[i].toUpperCase()) {
+        if (title.length <= 1 || title[0] === ' ' || title[title.length - 1] == ' ') {
             return false;
         }
+
+        return !regex.test(title);
     }
 
-    return true;
-}
+    function isValidName(name) {
+        if (name[0] === name[0].toLowerCase()) {
+            return false;
+        }
+        for (var i = 1; i < name.length; i++) {
+            if (name[i] === name[i].toUpperCase()) {
+                return false;
+            }
+        }
 
-function checkIfStudentIdExists(students, studentID) {
-    return students.some(function (student) {
-        return student.id === studentID;
-    });
-}
-
-function isValidHomeworkID(presentations, homeworkID) {
-    if (homeworkID < 1 || homeworkID > presentations.length) {
-        return false;
+        return true;
     }
-    
-    return true;
-}
 
-var Course = {
-    init: function (title, presentations) {
-        this.title = title;
-        this.presentations = presentations;
-        this.students = [];
+    function checkIfStudentIdExists(students, studentID) {
+        return students.some(function (student) {
+            return student.id === studentID;
+        });
+    }
 
-        return this;
-    },
-    addStudent: function (name) {
-        if (name) {
-            var names = name.split(' '),
-                firstName,
-                lastName;
+    function isValidHomeworkID(presentations, homeworkID) {
+        if (homeworkID < 1 || homeworkID > presentations.length || isNaN(parseInt(homeworkID))) {
+            return false;
+        }
 
-            if (names.length !== 2) {
+        return true;
+    }
+
+    var Course = {
+        init: function (title, presentations) {
+            this.title = title;
+            this.presentations = presentations;
+            this.students = [];
+            ID = 1;
+
+            return this;
+        },
+        addStudent: function (name) {
+            if (name) {
+                var names = name.split(' '),
+                    firstName,
+                    lastName;
+
+                if (names.length !== 2) {
+                    throw new Error('Invalid name!');
+                }
+
+                firstName = names[0];
+                lastName = names[1];
+            }
+
+            if (!isValidName(firstName) || !isValidName(lastName)) {
                 throw new Error('Invalid name!');
             }
 
-            firstName = names[0];
-            lastName = names[1];
-        }
+            this.students.push({
+                firstname: firstName,
+                lastname: lastName,
+                id: ID
+            });
 
-        if (!isValidName(firstName) || !isValidName(lastName)) {
-            throw new Error('Invalid name!');
-        }
+            return ID++;
+        },
+        getAllStudents: function () {
+            return this.students.slice(0);
+        },
+        submitHomework: function (studentID, homeworkID) {
+            if (!checkIfStudentIdExists(this.students, studentID)) {
+                throw new Error('Invalid student ID!');
+            }
+            if (!isValidHomeworkID(this.presentations, homeworkID)) {
+                throw new Error('Invalid homework ID!');
+            }
+        },
+        pushExamResults: function (results) {
+            var studentID,
+                score;
 
-        this.students.push({
-            firstname: firstName,
-            lastname: lastName,
-            id: ID
-        });
-
-        return ID++;
-    },
-    getAllStudents: function () {
-        return this.students.slice(0);
-    },
-    submitHomework: function (studentID, homeworkID) {
-        if (!checkIfStudentIdExists(this.students, studentID)) {
-            throw new Error('Invalid student ID!');
-        }
-        if (!isValidHomeworkID(this.presentations, homeworkID)) {
-            throw new Error('Invalid homework ID!');
-        }
-    },
-    pushExamResults: function (results) {
-    },
-    getTopStudents: function () {
-    },
-    get title() {
-        return this._title;
-    },
-    set title(value) {
-        if (!isValidTitle(value)) {
-            throw new Error('Invalid title!')
-        }
-
-        this._title = value;
-    },
-    get presentations() {
-        return this._presentations;
-    },
-    set presentations(value) {
-        if (value && value.length) {
-
-            for (var i = 0; i < value.length; i++) {
-                if (!isValidTitle(value[i])) {
-                    throw new Error('Invalid title!');
-                }
+            if (!Array.isArray(results)) {
+                throw new Error('You should pass an array!');
             }
 
-            this._presentations = value;
-        } else {
-            throw new Error('You cannot create a course without presentations!');
+            for (var i = 0; i < results.length; i++) {
+                studentID = results[i].StudentID;
+                score = results[i].score;
+
+                if (!checkIfStudentIdExists(this.students, studentID)) {
+                    throw new Error('Invalid student ID!');
+                }
+                if (isNaN(parseInt(score))) {
+                    throw new Error('Invalid score!');
+                }
+                if (this.students[studentID - 1].hasExam) {
+                    throw new Error('This student has tried to cheat!');
+                }
+
+                this.students[studentID - 1].hasExam = true;
+                this.students[studentID - 1].score = score;
+            }
+        },
+        getTopStudents: function () {
+        },
+        get title() {
+            return this._title;
+        },
+        set title(value) {
+            if (!isValidTitle(value)) {
+                throw new Error('Invalid title!')
+            }
+
+            this._title = value;
+        },
+        get presentations() {
+            return this._presentations;
+        },
+        set presentations(value) {
+            if (value && value.length) {
+
+                for (var i = 0; i < value.length; i++) {
+                    if (!isValidTitle(value[i])) {
+                        throw new Error('Invalid title!');
+                    }
+                }
+
+                this._presentations = value;
+            } else {
+                throw new Error('You cannot create a course without presentations!');
+            }
         }
-    }
-};
+    };
 
     return Course;
 }
