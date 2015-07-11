@@ -1,0 +1,7 @@
+li > ul {
+    display: none;
+}
+
+li.visible > ul {
+    display: block;
+}
