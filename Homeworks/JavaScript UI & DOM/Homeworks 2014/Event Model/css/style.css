@@ -1,0 +1,17 @@
+#main-container {
+    width: 500px;
+}
+
+#TODO-list {
+    padding: 0;
+}
+
+#TODO-list > li {
+    display: inline-block;
+    width: 400px;
+    padding-bottom: 20px
+}
+
+button {
+    margin-left: 10px;
+}
