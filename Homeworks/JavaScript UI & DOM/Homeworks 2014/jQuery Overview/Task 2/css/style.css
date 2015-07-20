@@ -1,0 +1,11 @@
+img {
+    margin-top: 10px;
+}
+
+article {
+    margin-top: 10px;
+    padding: 10px;
+    width: 600px;
+    border: 2px solid black;
+    background: lightgoldenrodyellow;
+}

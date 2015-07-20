@@ -1,0 +1,9 @@
+.slider li {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+}
+
+.slider > li.active {
+    display: block;
+}
