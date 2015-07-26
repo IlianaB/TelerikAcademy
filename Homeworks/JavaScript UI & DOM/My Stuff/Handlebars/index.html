@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Handlebars Templates</title>
+
+</head>
+<body>
+<div id="result"></div>
+
+<script id="template" type="text/x-handlebars-template">
+    <div class="page">
+        <h1>{{title}}</h1>
+
+        <div>
+            <h2>
+                Student first name is: {{student.firstName}}<br/>
+                Student last name is: {{student.lastName}}<br/>
+
+                {{genderType student.gender}} is {{student.age}} years old. {{genderType student.gender}} is {{student.gender}}
+            </h2>
+            <h3>List student's courses</h3>
+            <ul>
+                {{#each courses}}
+                <li>
+                    <h4>{{name}}</h4>
+                    <ul>
+                        {{#each teachers}}
+                        <li>
+                            <author>{{fullName this}}</author>
+                            <p>
+                                {{#if isFemale}}
+                                She
+                                {{else}}
+                                He
+                                {{/if}}
+                                is {{age}} years old</p>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</script>
+<!--
+<div id="result2">
+    <div class="page">
+        <h1>My first template</h1>
+
+        <div>
+            <h2>
+                Student first name is: Iliana<br/>
+                Student last name is: Bobeva<br/>
+                She is 25 years old
+            </h2>
+
+            <h3>List student's courses</h3>
+            <ul>
+                <li>
+                    <h4>C# 1</h4>
+
+                    <ul>
+                        <li>
+                            <author>Doncho Minkov</author>
+                            <p>He is 27 years old</p>
+                        </li>
+                        <li>
+                            <author>Gosho Goshov</author>
+                            <p>He is 27 years old</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>C# 2</h4>
+
+                    <ul>
+                        <li>
+                            <author>Doncho Minkov 2</author>
+                            <p>He is 27 years old</p>
+                        </li>
+                        <li>
+                            <author>Gosho Goshov 2</author>
+                            <p>He is 27 years old</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>-->
+<script src="js/handlebars-v3.0.3.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
