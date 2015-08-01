@@ -40,8 +40,8 @@ function solve() {
         function onBtnCLick() {
             var $this = $(this);
 
-            var $nextBtn = $this.next('.button'),
-                $nextContent = $this.next('.content');
+            var $nextContent = $this.nextAll('.content').first(),
+                $nextBtn = $nextContent.nextAll('.button').first();
 
             if ($nextBtn.length && $nextContent.length) {
                 if ($nextContent.css('display') === 'none') {
@@ -55,5 +55,6 @@ function solve() {
         }
     };
 };
+
 
 module.exports = solve;
