@@ -9,6 +9,8 @@ function solve(){
       for (var i = 0; i < data.length; i++) {
         $this.append(compiledTemplate(data[i]));
       }
+	  
+	  return this;
     };
   };
 }
