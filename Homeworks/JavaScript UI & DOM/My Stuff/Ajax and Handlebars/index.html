@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Handlebars Templates</title>
+
+</head>
+<body>
+<div id="result"></div>
+
+<script id="template" type="text/x-handlebars-template">
+    <h1>{{city.name}}</h1>
+
+    {{#each list}}
+        Clouds: {{clouds.all}}%<br/>
+    {{/each}}
+</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/handlebars-v3.0.3.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
