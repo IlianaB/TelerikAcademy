@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Handlebars Templates</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+<div id="result"></div>
+
+<script id="template" type="text/x-handlebars-template">
+    <table>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Title
+            </th>
+            <th>
+                Date
+            </th>
+        </tr>
+        {{#each courses}}
+        <tr>
+            <td>
+                {{id}}
+            </td>
+            <td>
+                {{title}}
+            </td>
+            <td>
+                {{date}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+
+</script>
+
+<script src="js/handlebars-v3.0.3.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

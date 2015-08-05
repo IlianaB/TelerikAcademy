@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+	border-bottom: none;
+	border-right: none;
+}
+
+td, th {
+	width: 200px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td:first-child, th:first-child {
+	width: 70px;
+}
+
+th  {
+	background: darkgray;
+	color: white;
+
+}
+
+tr:nth-child(2n  + 1) {
+	background: lightgray;
+}
