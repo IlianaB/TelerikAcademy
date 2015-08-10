@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="main-container">
+    <p>
+        <label for="input-name">Name: </label>
+        <input type="text" id="input-name">
+        <label for="input-grade">Grade: </label>
+        <input type="text" id="input-grade">
+        <button id="add-button">Add student</button></p>
+    <p>
+        <label for="delete-input">
+            Student's ID to delete:
+        </label>
+        <input type="text" id="delete-input">
+        <button id="delete-button">Delete student</button>
+    </p>
+    <ul class="students-data">
+
+    </ul>
+</div>
+
+<script id="template" type="text/x-handlebars-template">
+    {{#each students}}
+    <li>
+        <h3>Name: {{this.name}}</h3>
+        <h4>ID: {{this.id}}</h4>
+    </li>
+    {{/each}}
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
