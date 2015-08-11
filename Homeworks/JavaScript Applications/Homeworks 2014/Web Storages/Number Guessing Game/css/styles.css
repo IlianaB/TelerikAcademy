@@ -1,0 +1,35 @@
+#main-container {
+    margin: 20px 0 0 20px;
+    width: 670px;
+}
+
+main {
+    margin-right: 5px;
+    height: 800px;
+    overflow: auto;
+    float: left;
+    width: 68%;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+#input-par {
+    display: none;
+}
+
+#result {
+    display: none;
+}
+
+#win-input {
+    display: none;
+}
+
+.bg-info {
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+}

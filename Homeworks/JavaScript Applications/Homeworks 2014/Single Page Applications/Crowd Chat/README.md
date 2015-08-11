@@ -12,4 +12,5 @@ Body: {
 Sends a new post
 
 The result:
+
 <img src="images/crowd-chat.jpg" />
