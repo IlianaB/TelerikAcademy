@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Crowd chat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div id="main-container">
+    <div id="chat" class="panel panel-info">
+        <div class="panel-heading">
+            <h2>Welcome to the Crowd Chat!</h2>
+        </div>
+        <br/>
+
+        <div id="controls">
+            <p>
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+            </p>
+
+            <p>
+                <label for="message">Message: </label>
+                <input type="text" id="message">
+            </p>
+
+            <p>
+                <button id="send-button">Send message</button>
+            </p>
+        </div>
+
+    </div>
+    <div id="messages" class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Chat Zone</h3>
+        </div>
+        <div class="panel-body">
+            <ul id="chat-zone" class="list-group">
+            </ul>
+            <div class="list-group">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

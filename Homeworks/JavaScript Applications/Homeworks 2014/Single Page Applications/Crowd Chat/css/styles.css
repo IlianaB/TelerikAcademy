@@ -1,0 +1,18 @@
+#main-container {
+    margin: 20px 0 0 20px;
+    width: 700px;
+}
+
+#messages {
+    height: 700px;
+    margin-top: 20px;
+}
+
+#controls {
+    padding-left: 30px;
+}
+
+#messages .panel-body {
+    height: 660px;
+    overflow: auto;
+}
