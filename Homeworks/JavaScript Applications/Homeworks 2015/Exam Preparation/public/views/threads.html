@@ -1,0 +1,36 @@
+<div class="row">
+    <a href=#/users type="button" class="btn btn-warning">See all users</a>
+    <a href=#/logout type="button" class="btn btn-danger">Logout</a>
+</div>
+<br/>
+{{#if authKey}}
+<div class="row">
+    <div class="col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Add thread</h3>
+            </div>
+            <div class="panel-body">
+                <form action="#/threads" method="POST">
+                    <input type="text" name="threadTitle" placeholder="Thread Title"/>
+                    <button type="submit">Add a thread</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{/if}}
+<div class="list-group">
+    {{#each threads.result}}
+    <div class="row">
+        <div class="col-md-4">
+            <a href="#/threads/{{id}}" class="list-group-item active">{{title}}</a>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    posted at {{postDate}} by {{user.username}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

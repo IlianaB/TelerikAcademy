@@ -1,0 +1,18 @@
+<div class="row">
+    <a href=#/threads type="button" class="btn btn-info">See all threads</a>
+    <a href=#/users type="button" class="btn btn-warning">See all users</a>
+    <a href=#/logout type="button" class="btn btn-danger">Logout</a>
+</div>
+<br/>
+<ul class="list-group">
+    {{#each result}}
+    <div class="row">
+        <div class="col-md-2">
+            <li class="list-group-item">
+                <span class="badge">{{id}}</span>
+                {{username}}
+            </li>
+        </div>
+    </div>
+    {{/each}}
+</ul>
