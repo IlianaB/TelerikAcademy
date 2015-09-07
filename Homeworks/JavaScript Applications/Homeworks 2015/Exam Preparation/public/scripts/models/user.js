@@ -2,7 +2,7 @@ var user = (function () {
     function register(username, password) {
         var data = {
             username: username,
-            passHash: password
+            passHash: CryptoJS.SHA1(password + username).toString()
         };
 
         return $.ajax({
@@ -13,10 +13,10 @@ var user = (function () {
         });
     }
 
-    function logIn(username, passHash) {
+    function logIn(username, password) {
         var data = {
             username: username,
-            passHash: passHash
+            passHash: CryptoJS.SHA1(password + username).toString()
         };
 
         return $.ajax({
