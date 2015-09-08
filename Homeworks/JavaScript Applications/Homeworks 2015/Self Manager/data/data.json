@@ -1,0 +1,240 @@
+{
+  "users": [
+    {
+      "username": "Minkov",
+      "passHash": "aa95f6e4ccc679dcdf2627efff6832aa4a4ac44a",
+      "usernameLower": "minkov",
+      "authKey": "undefinedb+!K=hzTb&Kkm(XPQ&D!j$qAArMC=lHEhzPj(=G(wB^hk$hk*qs",
+      "id": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+      "events": [
+        {
+          "id": 260967,
+          "title": "Test with Minkov and Cuki",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T21:00:00.000Z",
+          "creatorId": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+          "users": [
+            "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e"
+          ]
+        },
+        {
+          "id": 298606,
+          "title": "Test with Minkov and Cuki",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T21:00:00.000Z",
+          "creatorId": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+          "users": [
+            "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e"
+          ]
+        },
+        {
+          "id": 905769,
+          "title": "test title",
+          "category": "new category",
+          "description": "asdasd",
+          "date": null,
+          "creatorId": "29265c21-5502-4bd6-afd3-99f577ed51df",
+          "users": [
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+            "29265c21-5502-4bd6-afd3-99f577ed51df",
+            "29265c21-5502-4bd6-afd3-99f577ed51df"
+          ]
+        }
+      ]
+    },
+    {
+      "username": "Cuki",
+      "passHash": "6edbb5c948d25789eccdfb37b70ff7f728f49786",
+      "usernameLower": "cuki",
+      "authKey": "undefinedvATd&fe=eZt=ERo!YLJgNC!UT^@LC)JHZ(XQQ=_%@xaM+)sK!FL",
+      "id": "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+      "events": [
+        {
+          "id": 260967,
+          "title": "Test with Minkov and Cuki",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T21:00:00.000Z",
+          "creatorId": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+          "users": [
+            "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e"
+          ]
+        },
+        {
+          "id": 298606,
+          "title": "Test with Minkov and Cuki",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T21:00:00.000Z",
+          "creatorId": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+          "users": [
+            "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e"
+          ]
+        }
+      ]
+    },
+    {
+      "username": "test",
+      "passHash": "51abb9636078defbf888d8457a7c76f85c8f114c",
+      "usernameLower": "test",
+      "authKey": "undefinedTrlfUnZT-Fc*nH=d^+vi^n^EwU#ayf^+teaCXQogkQ!%ypJ&Q*S",
+      "id": "c9dc7584-406b-4536-bb94-e41521bb248a",
+      "todos": [
+        {
+          "id": 734285,
+          "text": "test",
+          "state": false,
+          "category": "home"
+        },
+        {
+          "id": 746205,
+          "text": "test",
+          "state": false,
+          "category": "as"
+        }
+      ],
+      "events": []
+    },
+    {
+      "username": "iliana",
+      "passHash": "bce9536074d4c350ae7a2b3e301152f9337e40f5",
+      "usernameLower": "iliana",
+      "authKey": "undefinedZSCOVW-xMaTxSoPbuS--%D&QJYGKu)DQC@jjSl@IP=hq@O^hLMW",
+      "id": "29265c21-5502-4bd6-afd3-99f577ed51df",
+      "todos": [
+        {
+          "id": 725158,
+          "text": "TodoText",
+          "state": false,
+          "category": "School"
+        },
+        {
+          "id": 792703,
+          "text": "D",
+          "state": true,
+          "category": "Free Time"
+        },
+        {
+          "id": 662481,
+          "text": "New",
+          "state": false,
+          "category": "Free time"
+        },
+        {
+          "id": 304225,
+          "text": "Test",
+          "state": false,
+          "category": "Test"
+        },
+        {
+          "id": 810808,
+          "text": "tet",
+          "state": false,
+          "category": "Test"
+        }
+      ],
+      "events": [
+        {
+          "id": 905769,
+          "title": "test title",
+          "category": "new category",
+          "description": "asdasd",
+          "date": null,
+          "creatorId": "29265c21-5502-4bd6-afd3-99f577ed51df",
+          "users": [
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+            "29265c21-5502-4bd6-afd3-99f577ed51df",
+            "29265c21-5502-4bd6-afd3-99f577ed51df"
+          ]
+        },
+        {
+          "id": 260967,
+          "title": "Test with Minkov and Cuki",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T21:00:00.000Z",
+          "creatorId": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+          "users": [
+            "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e"
+          ]
+        },
+        {
+          "id": 298606,
+          "title": "Test with Minkov and Cuki",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T21:00:00.000Z",
+          "creatorId": "20c652bf-0eac-4428-8dc8-e7f147b5f85e",
+          "users": [
+            "2e5a8bd6-aae8-4f86-93ae-40207562b8c4",
+            "20c652bf-0eac-4428-8dc8-e7f147b5f85e"
+          ]
+        }
+      ]
+    },
+    {
+      "username": "iliana2",
+      "passHash": "ef835674a03cc01d623d82aac801480437262e90",
+      "usernameLower": "iliana2",
+      "authKey": "undefined&_i=wYT=Ea!xDo-_JtQ*Fe-T*Rznlq@LcLCS%X-IU*A=&CI$bF!",
+      "id": "9a4bb4d0-359d-44a0-9981-1348ec64d34e",
+      "events": [
+        {
+          "id": 909417,
+          "title": "test",
+          "category": "test",
+          "description": "asd",
+          "date": null,
+          "creatorId": "f00baf7b-695f-4466-88a1-08048a2011ff",
+          "users": [
+            "f00baf7b-695f-4466-88a1-08048a2011ff",
+            "9a4bb4d0-359d-44a0-9981-1348ec64d34e",
+            "f00baf7b-695f-4466-88a1-08048a2011ff"
+          ]
+        }
+      ]
+    },
+    {
+      "username": "adrian",
+      "passHash": "f9b3a2a481e6027c2a7b98675ac93df4e743b76f",
+      "usernameLower": "adrian",
+      "authKey": "undefinedvW=GEHPlFBNNpxMzEIEsBn*yxY)kkKk(YSmXFirVNRO%uQ$szPg",
+      "id": "f00baf7b-695f-4466-88a1-08048a2011ff",
+      "events": [
+        {
+          "id": 909417,
+          "title": "test",
+          "category": "test",
+          "description": "asd",
+          "date": null,
+          "creatorId": "f00baf7b-695f-4466-88a1-08048a2011ff",
+          "users": [
+            "f00baf7b-695f-4466-88a1-08048a2011ff",
+            "9a4bb4d0-359d-44a0-9981-1348ec64d34e",
+            "f00baf7b-695f-4466-88a1-08048a2011ff"
+          ]
+        },
+        {
+          "id": 909417,
+          "title": "test",
+          "category": "test",
+          "description": "asd",
+          "date": null,
+          "creatorId": "f00baf7b-695f-4466-88a1-08048a2011ff",
+          "users": [
+            "f00baf7b-695f-4466-88a1-08048a2011ff",
+            "9a4bb4d0-359d-44a0-9981-1348ec64d34e",
+            "f00baf7b-695f-4466-88a1-08048a2011ff"
+          ]
+        }
+      ]
+    }
+  ]
+}

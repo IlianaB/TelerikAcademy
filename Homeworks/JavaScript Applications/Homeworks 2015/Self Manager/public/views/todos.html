@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-md-5">
+        <h2>Your TODOs</h2>
+
+        <div class="list-group" id="todosList">
+            {{#each this}}
+            <a href="#/todos/category={{@key}}">
+                <h3>{{@key}}</h3>
+            </a>
+
+            {{#each this}}
+            <li class="list-group-item">
+                <label>
+                    {{#if state}}
+                    <input type="checkbox" data-id="{{id}}" checked>
+                    {{else}}
+                    <input type="checkbox" data-id="{{id}}">
+                    {{/if}}
+                    <span class="list-group-item-heading">{{text}}</span>
+                </label>
+            </li>
+            {{/each}}
+            {{/each}}
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <form action="#/todos" method="POST">
+            <h2 class="form-signin-heading">Add new TODO</h2>
+            <label for="todoText" class="sr-only">Text</label>
+            <input type="text" id="todoText" name="todoText" class="form-control"
+                   placeholder="TODO" required="" autofocus="">
+
+            <div class="ui-widget">
+                <label for="todoCategory" class="sr-only">Category</label>
+                <input type="text" id="todoCategory" name="todoCategory" class="form-control"
+                       placeholder="Category" required="">
+            </div>
+
+            <button id="btn-add-todo" class="btn btn-lg btn-success btn-block">Add</button>
+        </form>
+    </div>
+</div>
+
+
