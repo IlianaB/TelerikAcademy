@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Crowd Share</title>
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="bower_components/jt.timepicker/jquery.timepicker.css">
+    <link rel="stylesheet" href="bower_components/kendo-ui/styles/kendo.common.min.css">
+    <link rel="stylesheet" href="bower_components/kendo-ui/styles/kendo.bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/jquery-quick-pagination-master/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header text-center">
+            <h1>Welcome to Crowd Share!</h1>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="#/home">HOME</a></li>
+                <li><a href="#/createPost">Create Post</a></li>
+            </ul>
+
+            <div class="navbar-form navbar-right">
+                <a href="#/logout" class="btn btn-danger" id="logout-btn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content">
+        <div id="view" class="container"></div>
+    </div>
+
+    <footer>
+        <h4 class="text-center">
+            &copy; Crowd Share 2015
+        </h4>
+    </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/cryptojslib/components/core-min.js"></script>
+    <script src="bower_components/sha1/index.js"></script>
+    <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="bower_components/kendo-ui/js/kendo.ui.core.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/jt.timepicker/jquery.timepicker.min.js"></script>
+    <script src="bower_components/sammy/lib/sammy.js"></script>
+    <script src="bower_components/noty/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+    <script src="bower_components/lodash/lodash.min.js"></script>
+    <script src="bower_components/jquery-quick-pagination-master/js/jquery.quick.pagination.min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+
+    <script src="scripts/utils/notifier.js"></script>
+    <script src="scripts/utils/renderer.js"></script>
+    <script src="scripts/utils/requester.js"></script>
+    <script src="scripts/utils/validator.js"></script>
+    <script src="scripts/utils/filter.js"></script>
+    <script src="scripts/data/user.js"></script>
+    <script src="scripts/data/post.js"></script>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

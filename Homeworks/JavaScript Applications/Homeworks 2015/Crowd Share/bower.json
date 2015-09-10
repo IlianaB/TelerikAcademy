@@ -1,0 +1,35 @@
+{
+  "name": "Self Manager",
+  "version": "0.1.0",
+  "authors": [
+    ""
+  ],
+  "description": "Exam",
+  "main": "app.js",
+  "keywords": [
+    "exam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "animate-css#~3.4.0",
+    "bootstrap": "~3.3.5",
+    "cryptojslib": "~3.1.2",
+    "handlebars": "~4.0.2",
+    "jquery-ui": "~1.11.4",
+    "jt.timepicker": "~1.8.1",
+    "kendo-ui": "kendo-ui-core#~2015.2.813",
+    "lodash": "~3.10.1",
+    "moment": "~2.10.6",
+    "noty": "~2.3.6",
+    "sammy": "~0.7.6",
+    "sha1": "http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"
+  }
+}
