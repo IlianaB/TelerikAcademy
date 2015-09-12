@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="349"
+   height="206"
+   id="svg6372">
+  <defs
+     id="defs6374">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       style="overflow:visible"
+       id="TriangleOutL">
+      <path
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z "
+         transform="scale(0.8,0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         id="path6549" />
+    </marker>
+    <filter
+       id="filter6394">
+      <feGaussianBlur
+         id="feGaussianBlur6396"
+         stdDeviation="0.3875"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <g
+     transform="translate(580.21429,-946.50507)"
+     id="layer1">
+    <path
+       d="M -304.21875,1026.7188 L -304.21875,1079 L -303.21875,1079 L -303.21875,1026.7188 L -304.21875,1026.7188 z "
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6454" />
+    <rect
+       width="90"
+       height="65"
+       x="-573.71429"
+       y="1081.0051"
+       style="opacity:1;fill:#000000;fill-opacity:0.17105264;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter6394)"
+       id="rect6392" />
+    <rect
+       width="90"
+       height="65"
+       x="-575.71429"
+       y="1079.0051"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6390" />
+    <path
+       d="M -575.9679,1100.6718 L -485.99756,1100.6718"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6398" />
+    <path
+       d="M -575.9679,1122.3384 L -485.99756,1122.3384"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6400" />
+    <text
+       x="-531.3515"
+       y="1093.5315"
+       style="font-size:10.49006271px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text6402"
+       xml:space="preserve"><tspan
+         x="-531.3515"
+         y="1093.5315"
+         id="tspan6404">Product</tspan></text>
+    <rect
+       width="133"
+       height="70"
+       x="-365.46069"
+       y="1081.0051"
+       style="opacity:1;fill:#000000;fill-opacity:0.17105264;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter6394)"
+       id="rect6414" />
+    <rect
+       width="133"
+       height="70"
+       x="-367.46069"
+       y="1079.0051"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6416" />
+    <path
+       d="M -367.71429,1102.3384 L -234.48387,1102.3384"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6418" />
+    <path
+       d="M -367.71429,1125.6718 L -234.48387,1125.6718"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6422" />
+    <text
+       x="-301.42691"
+       y="1094.4263"
+       style="font-size:10.49006271px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text6430"
+       xml:space="preserve"><tspan
+         x="-301.42691"
+         y="1094.4263"
+         id="tspan6432">ConcreteCreator</tspan></text>
+    <text
+       x="-301.35519"
+       y="1140.0532"
+       style="font-size:10.49006271px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text6434"
+       xml:space="preserve"><tspan
+         x="-301.35519"
+         y="1140.0532"
+         id="tspan6436">+factoryMethod() : Product</tspan></text>
+    <rect
+       width="133"
+       height="70"
+       x="-365.46069"
+       y="953.00507"
+       style="opacity:1;fill:#000000;fill-opacity:0.17105264;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter6394)"
+       id="rect6438" />
+    <rect
+       width="133"
+       height="70"
+       x="-367.46069"
+       y="951.00507"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6440" />
+    <path
+       d="M -367.71429,974.33832 L -234.48387,974.33832"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6442" />
+    <path
+       d="M -367.71429,997.67172 L -234.48387,997.67172"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6444" />
+    <text
+       x="-301.42691"
+       y="966.42621"
+       style="font-size:10.49006271px;font-style:italic;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text6446"
+       xml:space="preserve"><tspan
+         x="-301.42691"
+         y="966.42621"
+         id="tspan6448">Creator</tspan></text>
+    <text
+       x="-301.35519"
+       y="1012.0532"
+       style="font-size:10.49006271px;font-style:italic;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text6450"
+       xml:space="preserve"><tspan
+         x="-301.35519"
+         y="1012.0532"
+         id="tspan6452">+factoryMethod() : Product</tspan></text>
+    <path
+       d="M -303.71429,1021.5842 L -297.13549,1032.9656 L -310.29309,1032.9656 L -303.71429,1021.5842 z "
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14562905;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6660" />
+    <path
+       d="M -472.18601,1118.7971 L -485.66634,1111.0051 L -472.18601,1103.2131"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.10000002;stroke-linejoin:bevel;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6676" />
+    <path
+       d="M -485.20136,1111.0051 L -367.6295,1111.0051"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6681" />
+  </g>
+</svg>
