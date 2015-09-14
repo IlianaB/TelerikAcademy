@@ -1,5 +1,5 @@
 # Academy Self Manager - JavaScript Applications Sample Exam
-
+<img src="images/home.jpg"></img>
 ##  Description:
 
 Implement a SPA application for creating TODOs and scheduling events
