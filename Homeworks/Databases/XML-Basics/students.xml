@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students>
+  <student xmlns:students="urn:students-telerik-academy">
+    <name>Pesho</name>
+    <sex>Male</sex>
+    <birthDate>1994-03-24</birthDate>
+    <phone>0999234532</phone>
+    <email>peshooo@pesho.com</email>
+    <course>Databases</course>
+    <speciality>Software Engineering</speciality>
+    <facultyNumber>123456</facultyNumber>
+    <exams>
+      <exam>
+        <name>SQL</name>
+        <tutor>Gosho Goshov</tutor>
+        <score>99</score>
+      </exam>
+      <exam>
+        <name>MongoDB</name>
+        <tutor>Pesho Goshov</tutor>
+        <score>88</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2015-09-10</date>
+      <exam-score>4.0</exam-score>
+    </enrollment>
+    <endorsements>
+      <endorsement>
+        <teacher-name>Gosho Goshov</teacher-name>
+        <content>Not a good one!</content>
+      </endorsement>
+      <endorsement>
+        <teacher-name>Pesho Goshov</teacher-name>
+        <content>The best teacher!</content>
+      </endorsement>
+    </endorsements>
+  </student>
+  <student>
+    <name>Maria</name>
+    <sex>Female</sex>
+    <birthDate>1993-12-21</birthDate>
+    <phone>0493235536</phone>
+    <email>maria@mar.com</email>
+    <course>Databases</course>
+    <speciality>Software Engineering</speciality>
+    <facultyNumber>123457</facultyNumber>
+    <exams>
+      <exam>
+        <name>SQL</name>
+        <tutor>Gosho Goshov</tutor>
+        <score>89</score>
+      </exam>
+      <exam>
+        <name>MongoDB</name>
+        <tutor>Pesho Goshov</tutor>
+        <score>90</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2015-09-12</date>
+      <exam-score>8.9</exam-score>
+    </enrollment>
+    <endorsements>
+      <endorsement>
+        <teacher-name>Gosho Goshov</teacher-name>
+        <content>Definetely can be better!</content>
+      </endorsement>
+    </endorsements>
+  </student>
+  <student>
+    <name>Stoicho</name>
+    <sex>Male</sex>
+    <birthDate>1992-01-02</birthDate>
+    <phone>0493434534</phone>
+    <email>stoicho@sto.com</email>
+    <course>Databases</course>
+    <speciality>Software Engineering</speciality>
+    <facultyNumber>123458</facultyNumber>
+    <exams>
+      <exam>
+        <name>SQL</name>
+        <tutor>Gosho Goshov</tutor>
+        <score>56</score>
+      </exam>
+      <exam>
+        <name>MongoDB</name>
+        <tutor>Pesho Goshov</tutor>
+        <score>67</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2015-09-15</date>
+      <exam-score>7.5</exam-score>
+    </enrollment>
+    <endorsements>
+      <endorsement>
+        <teacher-name>Gosho Goshov</teacher-name>
+        <content>The best teacher!</content>
+      </endorsement>
+      <endorsement>
+        <teacher-name>Pesho Goshov</teacher-name>
+        <content>Not so good!</content>
+      </endorsement>
+    </endorsements>
+  </student>
+</students>
