@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>Crush</name>
+    <artist>Bon Jovi</artist>
+    <year>2000</year>
+    <producer>Island Records</producer>
+    <price>15.5</price>
+    <songs>
+      <song>
+        <title>It's My Life</title>
+        <duration>3:53</duration>
+      </song>
+      <song>
+        <title>Say It Isn't So</title>
+        <duration>3:34</duration>
+      </song>
+      <song>
+        <title>Mystery Train</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>One Wild Night</title>
+        <duration>4:05</duration>
+      </song>
+      <song>
+        <title>Save The World</title>
+        <duration>3:54</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Bounce</name>
+    <artist>Bon Jovi</artist>
+    <year>2002</year>
+    <producer>Island Records</producer>
+    <price>18</price>
+    <songs>
+      <song>
+        <title>Undivided</title>
+        <duration>3:23</duration>
+      </song>
+      <song>
+        <title>Everyday</title>
+        <duration>3:45</duration>
+      </song>
+      <song>
+        <title>Misunderstood</title>
+        <duration>3:25</duration>
+      </song>
+      <song>
+        <title>Bounce</title>
+        <duration>4:43</duration>
+      </song>
+      <song>
+        <title>Joey</title>
+        <duration>3:38</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Affirmation</name>
+    <artist>Savage Garden</artist>
+    <year>2000</year>
+    <producer>Columbia Records</producer>
+    <price>26</price>
+    <songs>
+      <song>
+        <title>Affirmation</title>
+        <duration>3:47</duration>
+      </song>
+      <song>
+        <title>Hold Me</title>
+        <duration>3:56</duration>
+      </song>
+      <song>
+        <title>The Best Thing</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Crash And Burn</title>
+        <duration>4:17</duration>
+      </song>
+      <song>
+        <title>The Animal Song</title>
+        <duration>3:44</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

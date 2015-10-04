@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>Crush</name>
+    <artist>Bon Jovi</artist>
+    <year>2000</year>
+    <songs>
+      <song>
+        <title>It's My Life</title>
+        <duration>3:53</duration>
+      </song>
+      <song>
+        <title>Say It Isn't So</title>
+      </song>
+      <song>
+        <title>Mystery Train</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>One Wild Night</title>
+        <duration>4:05</duration>
+      </song>
+      <song>
+        <title>Save The World</title>
+        <duration>3:54</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Bounce</name>
+    <artist>Bon Jovi</artist>
+    <songs>
+      <song>
+        <title>Undivided</title>
+        <duration>3:23</duration>
+      </song>
+      <song>
+        <title>Everyday</title>
+        <duration>3:45</duration>
+      </song>
+      <song>
+        <title>Misunderstood</title>
+        <duration>3:25</duration>
+      </song>
+      <song>
+        <title>Bounce</title>
+        <duration>4:43</duration>
+      </song>
+      <song>
+        <title>Joey</title>
+        <duration>3:38</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Affirmation</name>
+    <artist>Savage Garden</artist>
+    <year>2000</year>
+    <producer>Columbia Records</producer>
+    <price>26</price>
+  </album>
+</catalogue>

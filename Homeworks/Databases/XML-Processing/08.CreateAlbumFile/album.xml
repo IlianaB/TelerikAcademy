@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>Crush</name>
+		<artist>Bon Jovi</artist>
+	</album>
+	<album>
+		<name>Bounce</name>
+		<artist>Bon Jovi</artist>
+	</album>
+	<album>
+		<name>Affirmation</name>
+		<artist>Savage Garden</artist>
+	</album>
+</albums>
